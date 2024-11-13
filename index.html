@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cross over Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" style="width: 400px; height:50px; background-color: rgb(54, 52, 49);color: rgb(41, 28, 223) ;"><br>
+        <div class="buttons">
+            <button class="button" onclick="appendToDisplay('7')" style="background-color: rgb(146, 152, 202);">7</button>
+            <button class="button" onclick="appendToDisplay('8')"style="background-color: rgb(146, 152, 202);">8</button>
+            <button class="button" onclick="appendToDisplay('9')"style="background-color: rgb(146, 152, 202);">9</button>
+            <button class="button" onclick="appendToDisplay('+')" style="background-color: rebeccapurple;">+</button><br>
+           
+
+            <button class="button" onclick="appendToDisplay('4')"style="background-color: rgb(146, 152, 202);">4</button>
+            <button class="button" onclick="appendToDisplay('5')"style="background-color: rgb(146, 152, 202);">5</button>
+            <button class="button" onclick="appendToDisplay('6')"style="background-color: rgb(146, 152, 202);">6</button>
+            <button class="button" onclick="appendToDisplay('-')" style="background-color: blue;">-</button><br>
+            
+
+            <button class="button" onclick="appendToDisplay('1')"style="background-color: rgb(146, 152, 202);">1</button>
+            <button class="button" onclick="appendToDisplay('2')"style="background-color: rgb(146, 152, 202);">2</button>
+            <button class="button" onclick="appendToDisplay('3')"style="background-color: rgb(146, 152, 202);">3</button>
+            <button class="button" onclick="appendToDisplay('*')" style="background-color: aquamarine;">*</button><br>
+
+            <button class="button" onclick="appendToDisplay('0')"style="background-color: rgb(146, 152, 202);">0</button>
+            <button class="button" onclick="clearDisplay()" style="background-color: rgb(22, 228, 22);">C</button>
+            <button class="button" onclick="calculateResult()" style="background-color: rgb(223, 193, 22);">=</button>
+            <button class="button" onclick="appendToDisplay('/')" style="background-color: rgb(247, 155, 112);">/</button>
+        </div>
+    </div>
+</body>
+</html>

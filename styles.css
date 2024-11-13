@@ -1,0 +1,40 @@
+body {
+    
+    background-color: rgb(223, 40, 65);
+    color: rgb(36, 36, 119);  
+   justify-content: center;
+    background-image: url(https://th.bing.com/th?id=OIP.KOIbGJq9u3yoT7kr-QiWGAHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+
+  
+  h1{
+      font-size: 45px;
+  }
+  input{
+      width: 55px;
+      height: 50px;
+      font-size: 45px;
+      border-radius: 10px;
+     
+      margin: 10px;
+      background-color: rgb(212, 143, 39);
+      color: rgb(185, 138, 216);
+      border-style: none;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(5,0.2fr);
+    gap: 7px;
+}
+  
+.btn:hover{
+    background-color: rgb(197, 18, 18);
+    cursor: pointer; 
+    }
+  
